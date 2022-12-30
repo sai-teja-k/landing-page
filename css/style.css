@@ -197,3 +197,11 @@ header{
     text-align:start;
 }
 
+footer{
+    height:10vh;
+    position: relative;
+    background-color:#1f2937;
+    color: #f9faf8;
+    font-size: 18px;
+    padding:15px 0;
+}
