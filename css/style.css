@@ -8,6 +8,7 @@
     list-style: none;
     text-decoration: none;
     cursor: auto;
+    transition:0.3s ease-in;
 }
 
 .main-cont{
@@ -17,6 +18,12 @@
 
 li{
     display:inline-block;
+    height: auto;
+    padding:10px;
+}
+
+li:hover{
+    background-color:#3882f6;
 }
 
 a{
@@ -36,6 +43,11 @@ img{
     border-radius: 5px;
     background-color:#3882f6;
     cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+    border: 2px solid #1F2937;
 }
 
 .sc1{
@@ -144,12 +156,17 @@ header{
     flex-direction: column;
     overflow: hidden;
     object-fit:contain;
+    transition: 0.2s ease-in-out;
 }
 
 .img-divs img{
     border: 5px solid #3882f6;
     overflow: hidden;
     border-radius:25px;
+}
+
+.img-divs:hover{
+    transform:scale(1.3);
 }
 
 .img-divs p{
